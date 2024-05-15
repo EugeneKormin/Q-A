@@ -11,7 +11,6 @@ CORS(app)
 socketio = SocketIO(app)
 prompt: Prompt = Prompt()
 
-
 @app.route('/')
 def index() -> str:
     return "index page"
